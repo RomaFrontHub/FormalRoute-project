@@ -1,0 +1,520 @@
+header {
+  margin-bottom: 0;
+}
+header .header__all .header__nav ul li a:hover {
+  background: #0076D8;
+}
+header .header__all .header__nav ul li .active {
+  background: #0076D8;
+}
+
+.contactPromo {
+  background: url(../img/contact.png);
+  height: 1080px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contactPromo .contactPromo__all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+.contactPromo .contactPromo__all .contactPromo__left {
+  background: rgba(18, 20, 38, 0.86);
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 800px;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__caption {
+  font-size: 55px;
+  line-height: 170%;
+  color: #fff;
+  margin-bottom: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form {
+  margin-bottom: 15px;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__name,
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__email {
+  margin-top: 0;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__name input,
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__email input,
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__message input {
+  background: transparent;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #fff;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 170%;
+  color: #fff;
+  outline: none;
+  width: 350px;
+  padding: 0 0 10px 0;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__name input::-webkit-input-placeholder, .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__email input::-webkit-input-placeholder, .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__message input::-webkit-input-placeholder {
+  color: #fff;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__name input::-moz-placeholder, .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__email input::-moz-placeholder, .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__message input::-moz-placeholder {
+  color: #fff;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__name input:-ms-input-placeholder, .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__email input:-ms-input-placeholder, .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__message input:-ms-input-placeholder {
+  color: #fff;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__name input::-ms-input-placeholder, .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__email input::-ms-input-placeholder, .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__message input::-ms-input-placeholder {
+  color: #fff;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__name input::placeholder,
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__email input::placeholder,
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__message input::placeholder {
+  color: #fff;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__send {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__send input {
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+  color: #0076D8;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 170%;
+  width: 350px;
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: auto;
+  margin-top: 56px;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  margin-right: 178px;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__check input[type=checkbox] {
+  display: none;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__check label {
+  border: 1px solid #fff;
+  background: transparent;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__check input:checked + label:before {
+  content: url(../img/check.svg);
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__check span {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 170%;
+  color: #fff;
+  opacity: 0.76;
+  margin-left: 10px;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__communic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 155px;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__communic .communic__address {
+  margin-bottom: 60px;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__communic .communic__address .address__caption {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 170%;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__communic .communic__address .address__text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 170%;
+  color: #fff;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__communic .communic__namber {
+  margin-bottom: 60px;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__communic .communic__namber .namber__caption {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 170%;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__communic .communic__namber .namber__text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 170%;
+  color: #fff;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__communic .communic__media .media__caption {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 170%;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__communic .communic__media .media__socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__communic .communic__media .media__socials .social {
+  margin-right: 44px;
+}
+.contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__communic .communic__media .media__socials .social:last-child {
+  margin-right: 0;
+}
+.contactPromo .contactPromo__all .contactPromo__right {
+  width: 200px;
+  opacity: 0.86;
+  background: #0076D8;
+  font-size: 50px;
+  line-height: 170%;
+  color: #fff;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .footer__all .footer__hr {
+  display: none;
+}
+
+@media screen and (max-width: 1500px) {
+  .contactPromo .contactPromo__all .contactPromo__left header {
+    margin-bottom: 30px;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left header .header__all .header__logo {
+    margin-bottom: 0px;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left header .header__all .header__nav ul li a {
+    padding: 18px;
+    font-size: 18px;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 100px;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form {
+    width: 100%;
+    margin-bottom: 70px;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__caption {
+    font-size: 55px;
+    margin-bottom: 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__message {
+    margin-top: 0;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__send {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__send input {
+    width: 100%;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form > div {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form > div input {
+    width: 100% !important;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__check {
+    margin-right: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__communic {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-left: 0;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__communic > div {
+    width: 45%;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__communic .communic__media .media__socials {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .contactPromo .contactPromo__all .contactPromo__left header {
+    margin-bottom: 30px;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left header .header__all .header__logo {
+    margin-bottom: 20px;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 50px;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form {
+    width: 100%;
+    margin-bottom: 70px;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__caption {
+    font-size: 55px;
+    margin-bottom: 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__message {
+    margin-top: 0;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__send {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__send input {
+    width: 100%;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form > div {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form > div input {
+    width: 100% !important;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__check {
+    margin-right: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__communic {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-left: 0;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__communic > div {
+    width: 45%;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__communic .communic__media .media__socials {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contactPromo .contactPromo__all .contactPromo__right {
+    width: auto;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .contactPromo .contactPromo__all .contactPromo__right {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .contactPromo .contactPromo__all .contactPromo__left header {
+    margin-bottom: 30px;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 20px;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form {
+    width: 100%;
+    margin-bottom: 70px;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__caption {
+    font-size: 40px;
+    margin-bottom: 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__message {
+    margin-top: 0;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__send {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form .contact__send input {
+    width: 100%;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form > div {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__form form > div input {
+    width: 100% !important;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__form .contact__check {
+    margin-right: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__communic {
+    margin-left: 0;
+    text-align: center;
+  }
+  .contactPromo .contactPromo__all .contactPromo__left .contact__data .contact__communic .communic__media .media__socials {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contactPromo .contactPromo__all .contactPromo__right {
+    display: none;
+  }
+}
+/*# sourceMappingURL=contacts.css.map */

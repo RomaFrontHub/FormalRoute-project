@@ -1,0 +1,549 @@
+header {
+  margin-bottom: 0;
+}
+header .header__all .header__nav ul li a:hover {
+  background: #0076D8;
+}
+header .header__all .header__nav ul li .active {
+  background: #0076D8;
+}
+
+.filesPromo {
+  background: url(../img/files-back.png);
+  height: 1080px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.filesPromo .filesPromo__all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+.filesPromo .filesPromo__all .filesPromo__left {
+  background: rgba(18, 20, 38, 0.86);
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.filesPromo .filesPromo__all .filesPromo__left .adaptive {
+  display: none;
+}
+.filesPromo .filesPromo__all .filesPromo__left .filesPromo__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 0 0 170px;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.filesPromo .filesPromo__all .filesPromo__left .filesPromo__text .filesPromo__caption {
+  font-size: 55px;
+  line-height: 170%;
+  color: #fff;
+  margin-bottom: 45px;
+}
+.filesPromo .filesPromo__all .filesPromo__left .filesPromo__text .filesPromo__desc {
+  font-size: 16px;
+  line-height: 170%;
+  color: #fff;
+  max-width: 806px;
+}
+.filesPromo .filesPromo__all .filesPromo__right {
+  width: 200px;
+  opacity: 0.86;
+  background: #0076D8;
+  font-size: 50px;
+  line-height: 170%;
+  color: #fff;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.filesPromo .news__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: -195px;
+}
+.filesPromo .news__container .promo__news {
+  background: #FFFFFF;
+  border-radius: 5px 0px 0px 5px;
+  padding: 25px 0 35px 35px;
+  width: 632px;
+  position: absolute;
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.filesPromo .news__container .promo__news .news__text .news__caption {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 170%;
+  color: #121426;
+  opacity: 0.45;
+  margin-bottom: 20px;
+}
+.filesPromo .news__container .promo__news .news__text .news__desc {
+  font-size: 16px;
+  line-height: 170%;
+  color: #000;
+  max-width: 407px;
+}
+.filesPromo .news__container .promo__news .news__arrow {
+  margin-left: 50px;
+}
+.filesPromo .arrow__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 165px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.filesPromo .arrow__container .promo__arrow {
+  position: absolute;
+}
+
+.download {
+  padding: 90px 100px 75px 100px;
+  background: #0076D8;
+}
+.download .download__all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.download .download__all #double {
+  display: none;
+}
+.download .download__all .download__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 75px;
+}
+.download .download__all .download__main .download__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 815px;
+  margin-bottom: 125px;
+}
+.download .download__all .download__main .download__item .download__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.download .download__all .download__main .download__item:nth-child(3), .download .download__all .download__main .download__item:nth-child(4) {
+  margin-bottom: 0;
+}
+.download .download__all .download__main .download__item .item__img img {
+  width: 80px;
+}
+.download .download__all .download__main .download__item .item__desc {
+  margin-left: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 570px;
+}
+.download .download__all .download__main .download__item .item__desc .item__caption {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 170%;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.download .download__all .download__main .download__item .item__desc .item__text {
+  font-size: 16px;
+  line-height: 170%;
+  color: #fff;
+  margin-bottom: 25px;
+}
+.download .download__all .download__main .download__item .item__desc .item__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.download .download__all .download__main .download__item .item__desc .item__buttons .item__link {
+  margin-left: 60px;
+}
+.download .download__all .download__main .download__item .item__desc .item__buttons .item__pdf a,
+.download .download__all .download__main .download__item .item__desc .item__buttons .item__link a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.download .download__all .download__main .download__item .item__desc .item__buttons .item__pdf a span,
+.download .download__all .download__main .download__item .item__desc .item__buttons .item__link a span {
+  font-size: 18px;
+  line-height: 170%;
+  color: #fff;
+  margin-left: 20px;
+}
+.download .download__all .download__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.download .download__all .download__button .button {
+  cursor: pointer;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background: transparent;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 170%;
+  width: 350px;
+  height: 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer__all .footer__hr {
+  display: none;
+}
+
+@media screen and (min-width: 2285px) and (max-width: 2560px) {
+  .filesPromo .filesPromo__all .filesPromo__left .filesPromo__text {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-top: 156px;
+  }
+
+  .download .download__all .download__main {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .download .download__all .download__main .download__item:nth-child(3) {
+    margin-bottom: 125px;
+  }
+}
+@media screen and (max-width: 2284px) {
+  .filesPromo .filesPromo__all .filesPromo__left .filesPromo__text {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-top: 156px;
+  }
+
+  .download .download__all .download__main {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+@media screen and (max-width: 1900px) {
+  .filesPromo .filesPromo__all .filesPromo__left .filesPromo__text {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-top: 156px;
+  }
+
+  .download {
+    padding: 90px 50px;
+  }
+  .download .download__all .download__main {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .download .download__all .download__main .download__item {
+    width: 45%;
+    margin-bottom: 80px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .download .download__all .download__main .download__item .download__wrapper {
+    display: block;
+  }
+  .download .download__all .download__main .download__item:nth-child(4) {
+    margin-bottom: 0;
+  }
+  .download .download__all .download__main .download__item .item__img {
+    margin-bottom: 20px;
+  }
+  .download .download__all .download__main .download__item .item__desc {
+    margin-left: 0;
+  }
+  .download .download__all .download__main .download__item .item__desc .item__caption {
+    margin-bottom: 10px;
+  }
+  .download .download__all .download__main .download__item .item__desc .item__buttons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .download .download__all .download__main .download__item .item__desc .item__buttons .item__pdf a span,
+.download .download__all .download__main .download__item .item__desc .item__buttons .item__link a span {
+    font-size: 15px;
+  }
+  .download .download__all .download__main .download__item .item__desc .item__buttons .item__link {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .filesPromo .filesPromo__all .filesPromo__left header .header__all .header__nav ul li a {
+    padding: 18px;
+    font-size: 18px;
+  }
+  .filesPromo .filesPromo__all .filesPromo__right {
+    width: 150px;
+  }
+
+  .download {
+    padding: 90px 50px;
+  }
+  .download .download__all .download__main {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .download .download__all .download__main .download__item {
+    width: 45%;
+    margin-bottom: 80px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .download .download__all .download__main .download__item:nth-child(4) {
+    margin-bottom: 0;
+  }
+  .download .download__all .download__main .download__item .item__img {
+    margin-bottom: 20px;
+  }
+  .download .download__all .download__main .download__item .item__desc {
+    margin-left: 0;
+  }
+  .download .download__all .download__main .download__item .item__desc .item__caption {
+    margin-bottom: 10px;
+  }
+  .download .download__all .download__main .download__item .item__desc .item__buttons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .download .download__all .download__main .download__item .item__desc .item__buttons .item__pdf a span,
+.download .download__all .download__main .download__item .item__desc .item__buttons .item__link a span {
+    font-size: 15px;
+  }
+  .download .download__all .download__main .download__item .item__desc .item__buttons .item__link {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .filesPromo {
+    height: 880px;
+  }
+  .filesPromo .filesPromo__all .filesPromo__left header .header__all .header__logo {
+    margin-bottom: 20px;
+  }
+  .filesPromo .filesPromo__all .filesPromo__left .filesPromo__text {
+    padding: 0 50px;
+    margin-top: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .filesPromo .filesPromo__all .filesPromo__right {
+    width: auto;
+  }
+
+  .download {
+    padding: 90px 50px;
+  }
+  .download .download__all .download__main {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .download .download__all .download__main .download__item {
+    width: 45%;
+    margin-bottom: 80px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .download .download__all .download__main .download__item:nth-child(4) {
+    margin-bottom: 0;
+  }
+  .download .download__all .download__main .download__item .item__img {
+    margin-bottom: 20px;
+  }
+  .download .download__all .download__main .download__item .item__desc {
+    margin-left: 0;
+  }
+  .download .download__all .download__main .download__item .item__desc .item__caption {
+    margin-bottom: 10px;
+  }
+  .download .download__all .download__main .download__item .item__desc .item__buttons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .download .download__all .download__main .download__item .item__desc .item__buttons .item__pdf a span,
+.download .download__all .download__main .download__item .item__desc .item__buttons .item__link a span {
+    font-size: 15px;
+  }
+  .download .download__all .download__main .download__item .item__desc .item__buttons .item__link {
+    margin-left: 30px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .filesPromo .filesPromo__all .filesPromo__right {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .filesPromo .filesPromo__all .filesPromo__left .filesPromo__text {
+    padding: 0 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 0;
+  }
+  .filesPromo .filesPromo__all .filesPromo__left .filesPromo__text .filesPromo__caption {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .filesPromo .filesPromo__all .filesPromo__right {
+    display: none;
+  }
+
+  .download {
+    padding: 90px 20px;
+  }
+  .download .download__all .download__main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .download .download__all .download__main .download__item {
+    width: 100%;
+    margin-bottom: 75px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .download .download__all .download__main .download__item:nth-child(4) {
+    margin-bottom: 0;
+  }
+  .download .download__all .download__main .download__item:nth-child(3) {
+    margin-bottom: 75px;
+  }
+  .download .download__all .download__main .download__item .item__img {
+    margin-bottom: 20px;
+  }
+  .download .download__all .download__main .download__item .item__desc {
+    margin-left: 0;
+    width: 100%;
+  }
+  .download .download__all .download__main .download__item .item__desc .item__caption {
+    margin-bottom: 10px;
+  }
+  .download .download__all .download__main .download__item .item__desc .item__buttons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .download .download__all .download__main .download__item .item__desc .item__buttons .item__pdf a span,
+.download .download__all .download__main .download__item .item__desc .item__buttons .item__link a span {
+    font-size: 15px;
+  }
+  .download .download__all .download__main .download__item .item__desc .item__buttons .item__link {
+    margin-left: 30px;
+  }
+  .download .download__all .download__button {
+    width: 100%;
+  }
+  .download .download__all .download__button a {
+    width: 100%;
+  }
+  .download .download__all .download__button a .button {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=publications.css.map */

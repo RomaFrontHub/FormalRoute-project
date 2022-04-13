@@ -1,0 +1,464 @@
+$color1: #0076D8;
+$color2: #343856;
+//Header for contacts.html
+header {
+    margin-bottom: 0;
+    .header__all {
+        .header__nav {
+            ul {
+                li {
+                    a:hover {
+                        background: $color1;
+                    }
+                    .active {
+                        background: $color1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//ContactPromo
+.contactPromo {
+    background: url(../img/contact.png);
+    height: 1080px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .contactPromo__all {
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+        .contactPromo__left {
+            background: rgb(18, 20, 38, 0.86);
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            .contact__data {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+                .contact__form {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    max-width: 800px;
+                    .contact__caption {
+                        font-size: 55px;
+                        line-height: 170%;
+                        color: #fff;
+                        margin-bottom: 65px;
+                        display: flex;
+                        width: 100%;
+                    }
+                    .contact__form {
+                        margin-bottom: 15px;
+                        form {
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: space-between;
+                            .contact__name,
+                            .contact__email {
+                                margin-top: 0;
+                            }
+                            .contact__name,
+                            .contact__email,
+                            .contact__message {
+                                input {
+                                    &::placeholder {
+                                        color: #fff;
+                                    }
+                                    background: transparent;
+                                    border-top: 0;
+                                    border-left: 0;
+                                    border-right: 0;
+                                    border-bottom: 1px solid #fff;
+                                    font-weight: 300;
+                                    font-size: 16px;
+                                    line-height: 170%;
+                                    color: #fff;
+                                    outline: none;
+                                    width: 350px;
+                                    padding: 0 0 10px 0;
+                                }
+                            }
+                            .contact__send {
+                                display: flex;
+                                flex-direction: column;
+                                input {
+                                    background: #FFFFFF;
+                                    border: 2px solid #FFFFFF;
+                                    box-sizing: border-box;
+                                    border-radius: 5px;
+                                    outline: none;
+                                    color: $color1;
+                                    font-weight: 500;
+                                    font-size: 18px;
+                                    line-height: 170%;
+                                    width: 350px;
+                                    transition: 0s;
+                                }
+                            }
+                            >div {
+                                display: flex;
+                                justify-content: center;
+                                width: auto;
+                                margin-top: 56px;
+                            }
+                        }
+                    }
+                    .contact__check {
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-end;
+                        width: 100%;
+                        margin-right: 178px;
+                        input[type="checkbox"] {
+                            display: none;
+                        }
+                        label {
+                            border: 1px solid #fff;
+                            background: transparent;
+                            width: 16px;
+                            height: 16px;
+                            border-radius: 2px;
+                            cursor: pointer;
+                        }
+                        input:checked+label:before {
+                            content: url(../img/check.svg);
+                        }
+                        span {
+                            font-weight: 300;
+                            font-size: 12px;
+                            line-height: 170%;
+                            color: #fff;
+                            opacity: 0.76;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+                .contact__communic {
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 155px;
+                    .communic__address {
+                        margin-bottom: 60px;
+                        .address__caption {
+                            font-weight: 500;
+                            font-size: 24px;
+                            line-height: 170%;
+                            color: #fff;
+                            text-transform: uppercase;
+                            margin-bottom: 15px;
+                        }
+                        .address__text {
+                            font-weight: 300;
+                            font-size: 18px;
+                            line-height: 170%;
+                            color: #fff;
+                        }
+                    }
+                    .communic__namber {
+                        margin-bottom: 60px;
+                        .namber__caption {
+                            font-weight: 500;
+                            font-size: 24px;
+                            line-height: 170%;
+                            color: #fff;
+                            text-transform: uppercase;
+                            margin-bottom: 15px;
+                        }
+                        .namber__text {
+                            font-weight: 300;
+                            font-size: 18px;
+                            line-height: 170%;
+                            color: #fff;
+                        }
+                    }
+                    .communic__media {
+                        .media__caption {
+                            font-weight: 500;
+                            font-size: 24px;
+                            line-height: 170%;
+                            color: #fff;
+                            text-transform: uppercase;
+                            margin-bottom: 25px;
+                        }
+                        .media__socials {
+                            display: flex;
+                            .social {
+                                &:last-child {
+                                    margin-right: 0;
+                                }
+                                margin-right: 44px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .contactPromo__right {
+            width: 200px;
+            opacity: 0.86;
+            background: $color1;
+            font-size: 50px;
+            line-height: 170%;
+            color: #fff;
+            writing-mode: vertical-lr;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+//Footer for contacts.html
+footer {
+    .footer__all {
+        // .footer__top {
+        //     margin-bottom: 57px;
+        // }
+        .footer__hr {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .contactPromo {
+        .contactPromo__all {
+            .contactPromo__left {
+                header {
+                    margin-bottom: 30px;
+                    .header__all {
+                        .header__logo {
+                            margin-bottom: 0px;
+                        }
+                        .header__nav {
+                            ul {
+                                li {
+                                    a {
+                                        padding: 18px;
+                                        font-size: 18px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .contact__data {
+                    flex-direction: column;
+                    padding: 0 100px;
+                    .contact__form {
+                        width: 100%;
+                        margin-bottom: 70px;
+                        .contact__caption {
+                            font-size: 55px;
+                            margin-bottom: 20px;
+                            justify-content: center;
+                        }
+                        .contact__form {
+                            margin-bottom: 30px;
+                            width: 100%;
+                            form {
+                                flex-direction: column;
+                                width: 100%;
+                                .contact__message {
+                                    margin-top: 0;
+                                }
+                                .contact__send {
+                                    margin-top: 0;
+                                    margin-bottom: 0;
+                                    input {
+                                        width: 100%;
+                                    }
+                                }
+                                >div {
+                                    width: 100%;
+                                    margin-bottom: 50px;
+                                    input {
+                                        width: 100%!important;
+                                    }
+                                }
+                            }
+                        }
+                        .contact__check {
+                            margin-right: 0;
+                            justify-content: center;
+                        }
+                    }
+                    .contact__communic {
+                        flex-direction: row;
+                        margin-left: 0;
+                        text-align: center;
+                        justify-content: center;
+                        width: 100%;
+                        >div {
+                            width: 45%;
+                        }
+                        .communic__media {
+                            .media__socials {
+                                justify-content: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .contactPromo {
+        .contactPromo__all {
+            .contactPromo__left {
+                header {
+                    margin-bottom: 30px;
+                    .header__all {
+                        .header__logo {
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+                .contact__data {
+                    flex-direction: column;
+                    padding: 0 50px;
+                    .contact__form {
+                        width: 100%;
+                        margin-bottom: 70px;
+                        .contact__caption {
+                            font-size: 55px;
+                            margin-bottom: 20px;
+                            justify-content: center;
+                        }
+                        .contact__form {
+                            margin-bottom: 30px;
+                            width: 100%;
+                            form {
+                                flex-direction: column;
+                                width: 100%;
+                                .contact__message {
+                                    margin-top: 0;
+                                }
+                                .contact__send {
+                                    margin-top: 0;
+                                    margin-bottom: 0;
+                                    input {
+                                        width: 100%;
+                                    }
+                                }
+                                >div {
+                                    width: 100%;
+                                    margin-bottom: 50px;
+                                    input {
+                                        width: 100%!important;
+                                    }
+                                }
+                            }
+                        }
+                        .contact__check {
+                            margin-right: 0;
+                            justify-content: center;
+                        }
+                    }
+                    .contact__communic {
+                        flex-wrap: wrap;
+                        flex-direction: row;
+                        margin-left: 0;
+                        text-align: center;
+                        justify-content: center;
+                        width: 100%;
+                        >div {
+                            width: 45%;
+                        }
+                        .communic__media {
+                            .media__socials {
+                                justify-content: center;
+                            }
+                        }
+                    }
+                }
+            }
+            .contactPromo__right {
+                width: auto;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .contactPromo {
+        .contactPromo__all {
+            .contactPromo__right {
+                width: 200px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contactPromo {
+        .contactPromo__all {
+            .contactPromo__left {
+                header {
+                    margin-bottom: 30px;
+                }
+                .contact__data {
+                    flex-direction: column;
+                    padding: 0 20px;
+                    .contact__form {
+                        width: 100%;
+                        margin-bottom: 70px;
+                        .contact__caption {
+                            font-size: 40px;
+                            margin-bottom: 20px;
+                            justify-content: center;
+                        }
+                        .contact__form {
+                            margin-bottom: 30px;
+                            width: 100%;
+                            form {
+                                flex-direction: column;
+                                width: 100%;
+                                .contact__message {
+                                    margin-top: 0;
+                                }
+                                .contact__send {
+                                    margin-top: 0;
+                                    margin-bottom: 0;
+                                    input {
+                                        width: 100%;
+                                    }
+                                }
+                                >div {
+                                    width: 100%;
+                                    margin-bottom: 50px;
+                                    input {
+                                        width: 100%!important;
+                                    }
+                                }
+                            }
+                        }
+                        .contact__check {
+                            margin-right: 0;
+                            justify-content: center;
+                        }
+                    }
+                    .contact__communic {
+                        margin-left: 0;
+                        text-align: center;
+                        .communic__media {
+                            .media__socials {
+                                justify-content: center;
+                            }
+                        }
+                    }
+                }
+            }
+            .contactPromo__right {
+                display: none;
+            }
+        }
+    }
+}
